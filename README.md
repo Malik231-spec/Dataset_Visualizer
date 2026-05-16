@@ -1,106 +1,112 @@
-# Dataset_Visualizer
-A GUI Web App that is comfortable to visualize your datasets, csv, text, json, and Excel and other
+# Dataset_Visualizer <br><br>
 
-🚀 1. Install Python Packages
+A GUI Web App that is comfortable to visualize your datasets, csv, text, json, and Excel and other <br><br>
 
-Open terminal in your project folder:
+🚀 1. Install Python Packages <br><br>
 
-pip install flask pandas ydata-profiling openpyxl
-📁 2. Create Project Structure
+Open terminal in your project folder: <br><br>
 
-Make folders/files like this:
+pip install flask pandas ydata-profiling openpyxl <br><br>
 
-project/
-│
-├── app.py
-├── uploads/
-├── templates/
-│   └── report.html
-└── frontend/
-🧠 3. Create Backend File (app.py)
+📁 2. Create Project Structure <br><br>
 
-Use the Flask backend code from the canvas document.
+Make folders/files like this: <br><br>
 
-Save it as:
+project/ <br>
+│ <br>
+├── app.py <br>
+├── uploads/ <br>
+├── templates/ <br>
+│   └── report.html <br>
+└── frontend/ <br><br>
 
-app.py
-▶️ 4. Run Backend Server
+🧠 3. Create Backend File (app.py) <br><br>
 
-In terminal:
+Use the Flask backend code from the canvas document. <br><br>
 
-python app.py
+Save it as: <br><br>
 
-You’ll see:
+app.py <br><br>
 
-Running on http://127.0.0.1:5000
-🌐 5. Open Frontend
+▶️ 4. Run Backend Server <br><br>
 
-If using React:
+In terminal: <br><br>
 
-npm install
-npm run dev
+python app.py <br><br>
 
-OR
+You’ll see: <br><br>
 
-Use simple HTML frontend and open:
+Running on http://127.0.0.1:5000 <br><br>
 
-index.html
+🌐 5. Open Frontend <br><br>
 
-in browser.
+If using React: <br><br>
 
-📂 6. Upload Dataset
+npm install <br>
+npm run dev <br><br>
 
-Now:
+OR <br><br>
 
-✅ Drag & drop CSV/Excel/JSON
-✅ System reads file
-✅ Generates smart HTML report
+Use simple HTML frontend and open: <br><br>
 
-📊 7. Generated Report
+index.html <br><br>
 
-Report automatically saves as:
+in browser. <br><br>
 
-templates/report.html
+📂 6. Upload Dataset <br><br>
 
-Open it in browser.
+Now: <br><br>
 
-🔥 Supported Files
+✅ Drag & drop CSV/Excel/JSON <br>
+✅ System reads file <br>
+✅ Generates smart HTML report <br><br>
 
-✅ .csv
-✅ .xlsx
-✅ .json
-✅ .txt
+📊 7. Generated Report <br><br>
 
-⚡ Optional Upgrade
+Report automatically saves as: <br><br>
 
-Install extra libraries:
+templates/report.html <br><br>
 
-pip install matplotlib seaborn sweetviz
+Open it in browser. <br><br>
 
-Then you can add:
+🔥 Supported Files <br><br>
 
-Heatmaps
-Graphs
-Correlation analysis
-AI insights
-💡 Very Important
+✅ .csv <br>
+✅ .xlsx <br>
+✅ .json <br>
+✅ .txt <br><br>
 
-New versions use:
+⚡ Optional Upgrade <br><br>
 
-from ydata_profiling import ProfileReport
+Install extra libraries: <br><br>
 
-NOT:
+pip install matplotlib seaborn sweetviz <br><br>
 
-from pandas_profiling import ProfileReport
+Then you can add: <br><br>
 
-because pandas_profiling is old now.
+Heatmaps <br>
+Graphs <br>
+Correlation analysis <br>
+AI insights <br><br>
 
-🛠️ If React Gives Error
+💡 Very Important <br><br>
 
-Run:
+New versions use: <br><br>
 
-npm install
+from ydata_profiling import ProfileReport <br><br>
 
-then:
+NOT: <br><br>
+
+from pandas_profiling import ProfileReport <br><br>
+
+because pandas_profiling is old now. <br><br>
+
+🛠️ If React Gives Error <br><br>
+
+Run: <br><br>
+
+npm install <br><br>
+
+then: <br><br>
 
 npm run dev
